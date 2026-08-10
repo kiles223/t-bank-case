@@ -28,4 +28,7 @@ public class Users {
     @OneToMany
     @JoinColumn(name = "user_id")
     private List<Transactions> transactionsList;
+    @OneToMany
+    @JoinColumn(name = "user_id")
+    private List<Notifications> notifications;
 }
