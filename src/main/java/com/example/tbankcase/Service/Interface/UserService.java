@@ -1,6 +1,5 @@
 package com.example.tbankcase.Service.Interface;
 
-import com.example.tbankcase.Model.entities.Users;
 import com.example.tbankcase.Model.dto.UsersDTO;
 
 public interface UserService{
