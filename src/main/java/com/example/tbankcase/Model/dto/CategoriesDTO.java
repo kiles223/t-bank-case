@@ -1,7 +1,6 @@
 package com.example.tbankcase.Model.dto;
 
 import com.example.tbankcase.Model.entities.United;
-import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
