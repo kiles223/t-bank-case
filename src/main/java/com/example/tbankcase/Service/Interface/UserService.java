@@ -1,8 +1,10 @@
 package com.example.tbankcase.Service.Interface;
 
 import com.example.tbankcase.Model.entities.Users;
+import com.example.tbankcase.Model.dto.UsersDTO;
 
-public interface UserService {
-    public UserService createUser(Users user);
-    public UserService findById(long id);
+public interface UserService{
+    UsersDTO createUser(UsersDTO user);
+    UsersDTO getUserById(long userId);
+    void deleteUserById(long  userId);
 }
